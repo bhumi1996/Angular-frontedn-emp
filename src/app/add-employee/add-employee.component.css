@@ -1,0 +1,36 @@
+ .empDetails
+    {
+        text-align: center;
+        height: 100%;
+        
+    
+        border-radius: 15px;
+        margin-top: 90px;
+        padding: 2%;
+        }
+.employeeName
+{
+    color: grey;
+}
+.ageDiv
+{
+    padding-top: 10px;
+    
+}
+.ageDiv input{
+    margin-left: 12px;
+}
+input{
+    border-radius: 15px;
+    height: 40px;
+    width: 220px;
+}
+.addEmp
+{
+    width: 79px;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-top: 1%;
+}

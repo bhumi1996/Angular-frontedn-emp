@@ -1,0 +1,28 @@
+<div class="empDetails"> 
+ <span *ngIf=isError>{{errorStatus}}</span>    
+ <table class="empTable">
+<thead>
+    <tr class="table100-head">
+        <th>Name</th>
+        <th>Age</th>
+        <th colspan="2">UPDATE/DELETE</th>
+    </tr>
+</thead>
+<tbody>
+<tr *ngFor="let emp of employees; index as i">
+    <td>
+        <input [readonly]="emp.isChecked" type="text" [(ngModel)]="emp.Name" >
+    </td>
+    <td> 
+        <input [readonly]="emp.isChecked" type="text" [(ngModel)]="emp.Age" >
+    </td>
+    <td><button (click)="delete(emp.id)">Delete</button>
+    </td>
+    <td><button (click)="update(emp)">{{emp.updateValue}}</button>
+    </td>  
+</tr>
+</tbody>
+</table>
+
+</div> 
+ 

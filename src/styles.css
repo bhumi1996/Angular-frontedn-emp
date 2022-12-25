@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+body
+{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+label
+{
+    font-weight: bold;
+    font-size: larger;
+}

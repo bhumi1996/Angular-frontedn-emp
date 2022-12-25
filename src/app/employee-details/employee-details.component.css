@@ -1,0 +1,46 @@
+
+li {
+    color: indigo;
+}
+.empTable
+{
+table-layout: auto;
+width: 80%;
+text-align: center;
+margin: 0 auto;
+
+}
+.empDetails
+{
+    text-align: center;
+    height: 100%;
+    border: 1px red white;
+    border-radius: 15px;
+    margin-top: 35px;
+    padding: 2%;
+    
+}
+tbody td
+{
+    border: 1px solid black;
+}
+
+table tbody tr {
+    height: 50px;
+}
+table thead tr {
+    height: 60px;
+  background: #36304a;
+}
+table thead th
+{
+    font-family: OpenSans-Regular;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: unset;
+}
+
+table tbody tr  td input{
+    text-align: center;
+   }

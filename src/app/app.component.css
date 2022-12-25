@@ -1,0 +1,30 @@
+
+#ddd {
+    border: rgb(138, 105, 255) 1 px solid;
+}
+
+
+
+nav a {
+    
+        background-color: #27aeb6;
+        color: white;
+        padding: 0.5em 0.5em;
+        text-decoration: none;
+        text-transform: uppercase;
+        border-radius: 10px;
+      
+}
+nav a.visited{
+    color: grey;
+}
+
+nav a.hover {
+    color: blue;
+    
+}
+
+nav a.active  {
+    color:red;
+    
+}

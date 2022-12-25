@@ -1,0 +1,13 @@
+<div class="empDetails">
+    <div>
+      <label >Name: </label>
+      <input [(ngModel)]="newEmployee.Name" class="employee"  required/>
+    </div>
+    <div class="ageDiv">
+        <label>Age: </label>
+        <input [(ngModel)]="newEmployee.Age"  required/>
+      </div>
+    <div style="padding-top: 10px;">
+      <a href="/ViewEmployees"><button (click)="addEmployee()" class="addEmp">Add</button></a>
+    </div>
+  </div>
